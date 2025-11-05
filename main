@@ -69,7 +69,7 @@ def main():
            
             elif check_draw(board):
                 display_board(board)
-                print("🤝 Ничья!")
+                print(" Ничья!")
                 game_over = True
             else:
                 
