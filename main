@@ -69,14 +69,14 @@ def main():
            
             elif check_draw(board):
                 display_board(board)
-                print(" Ничья!")
+                print("🤝 Ничья!")
                 game_over = True
             else:
                 
                 current_player = "O" if current_player == "X" else "X"
         
         if not restart_game():
-            print("Спасибо за игру! До встречи! ")
+            print("Спасибо за игру! До встречи! 👋")
             break
         else:
             print("\n" + "="*40)
